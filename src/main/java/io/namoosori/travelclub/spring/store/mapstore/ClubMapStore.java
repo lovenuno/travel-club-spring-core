@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.*;
 import java.util.stream.Collectors;
 
-@Repository
+@Repository("clubStore")
 public class ClubMapStore implements ClubStore {
 
     private Map<String, TravelClub> clubMap;
